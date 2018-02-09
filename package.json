@@ -1,0 +1,38 @@
+{
+  "name": "test_parse_json",
+  "version": "1.0.0",
+  "description": "test_parse_json",
+  "author": "kenpeter",
+  "keywords": [
+    "test_parse_json"
+  ],
+  "bugs": {
+    "web": "http://github.com/bermi/password-generator/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bermi/password-generator.git"
+  },
+  "dependencies": {
+    "yargs-parser": "^8.0.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.2.0",
+    "grunt": "0.3.17",
+    "mocha": "2.2.5"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "index",
+  "bin": "./bin/test_parse_json",
+  "directories": {
+    "lib": "./lib"
+  }
+}
