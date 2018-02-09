@@ -20,6 +20,7 @@
     "url": "git://github.com/bermi/password-generator.git"
   },
   "dependencies": {
+    "json-colorz": "^0.2.7",
     "yargs-parser": "^8.0.0"
   },
   "devDependencies": {
