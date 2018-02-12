@@ -20,6 +20,7 @@
     "url": "git://github.com/bermi/password-generator.git"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "json-colorz": "^0.2.7",
     "yargs-parser": "^8.0.0"
   },
@@ -29,7 +30,8 @@
     "mocha": "2.2.5"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+		"myrun": "./bin/test_parse_json.js"
   },
   "main": "index",
   "bin": "./bin/test_parse_json",
